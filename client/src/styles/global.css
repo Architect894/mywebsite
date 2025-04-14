@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('/fonts/quicksand/Quicksand-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuicksandBold';
+    src: url('/fonts/quicksand/Quicksand-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hover-effect:hover {
+    color: rgb(194, 253, 209);
+    background-color: rgb(70, 166, 255);
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 80px;
+}
+
+.custom-bg-opacity {
+    background-color: rgba(0, 153, 255, 0.158);
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.custom-video {
+    height: 15%;
+}
+
+@media (max-width: 768px) {
+    .custom-video {
+        height: 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-video {
+        height: 20%;
+        
+    }
+}
+
+.custom-bg {
+    background-color: rgba(0, 21, 36, 0.788);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.custom-bg-buttons {
+    padding: 2px;
+    color: rgb(124, 242, 250);
+    border-radius: 80px;
+}
+
+.custombg {
+    background-color: rgba(0, 21, 36, 0.788);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.custom-layout {
+    background-color: #0e20368a;
+    color: #ffffff;
+}
+
+body.dark-theme {
+    background-color: #152436;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.commercial-container {
+    border-radius: 10px;
+    background-color: #ffffff2f;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.commercial-container:hover {
+    background-color: #ffffff27;
+}
+
+.upc-logo {
+    height: 100px;
+}
+
+.logo-container {
+    height: 200px;
+    width: 200px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sr-only {
+    height: 90%;
+    width: auto;
+}
+
+.menu-container {
+    border-radius: 10px;
+    background-color: #ffffff52;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 0px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+
+/* Sticky functionality for DropMenu */
+.sticky-menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(2, 41, 87, 0.9);
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 0; /* Remove rounded edges for sticky state */
+}
+
+.menu-container:hover {
+    background-color: #02356e52;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.9);
+}
+
+.button-container {
+    position: relative;
+    display: inline-block;
+    font-size: large;
+    font-family: QuicksandBold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.button-container:hover {
+    color: rgb(255, 255, 255);
+}
+
+.button-container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: rgb(0, 53, 228);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.button-container:hover::after {
+    transform: scaleX(1);
+}

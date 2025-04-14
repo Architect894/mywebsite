@@ -37,9 +37,9 @@ export default function Footer() {
                     <div className="col-md-4 text-center text-md-start">
                         <h5 className="mb-4">About Me</h5>
                         <p>
-                            I'm a dedicated software developer with a passion for creating innovative
+                            I&apos;m a dedicated software developer with a passion for creating innovative
                             solutions. Whether you need web development, content management systems,
-                            or custom music composition, I'm here to help turn your ideas into reality.
+                            or custom music composition, I&apos;m here to help turn your ideas into reality.
                         </p>
                         <a
                             href="https://linkedin.com/in/architect894" // Replace with your LinkedIn profile

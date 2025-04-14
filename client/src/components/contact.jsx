@@ -50,7 +50,7 @@ export default function Contact() {
                 >
                     <h2 className="display-3 mb-3">Get in Touch</h2>
                     <p className="lead">
-                        I'd love to hear from you! Whether it's a project, a question, or just a hello.
+                        I&apos;d love to hear from you! Whether it's a project, a question, or just a hello.
                     </p>
                     <p className="text-light mb-2">Email me directly at:</p>
                     <p>

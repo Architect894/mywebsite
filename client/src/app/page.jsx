@@ -55,7 +55,7 @@ export default function Home() {
 
                 {/* Overlay content */}
                 <div className="text-center position-relative" style={{ zIndex: 2 }}>
-                    <h1 className="display-3 mb-4">Hey, I'm Jacob</h1>
+                    <h1 className="display-3 mb-4">Hey, I&apos;m Jacob</h1>
                     <p className="lead mb-5">
                         Feel free to have a look around, welcome to my portfolio!<br />
                         I am a software engineer with a passion for music and technology.

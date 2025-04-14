@@ -7,7 +7,7 @@ export default function ContactUs() {
     return (
         <div className="bg-gray-900 py-24 sm:py-32">
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-                <h2 className="text-base/7 font-semibold text-indigo-400">Let's Work Together</h2>
+                <h2 className="text-base/7 font-semibold text-indigo-400">Let&apos;s Work Together</h2>
                 <p className="mt-2 max-w-lg text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
                     Turning your vision into reality.
                 </p>
@@ -30,7 +30,7 @@ export default function ContactUs() {
                                     Building the Future of Tech
                                 </p>
                                 <p className="mt-2 max-w-lg text-sm/6 text-gray-400">
-                                    Whether it's web applications, automation tools, or bespoke software, I design and
+                                    Whether it&apos;s web applications, automation tools, or bespoke software, I design and
                                     develop solutions tailored to your unique needs using modern tech stacks like
                                     JavaScript and Python.
                                 </p>
@@ -79,7 +79,7 @@ export default function ContactUs() {
                                     Your Vision, My Expertise
                                 </p>
                                 <p className="mt-2 max-w-lg text-sm/6 text-gray-400">
-                                    Collaboration is at the heart of every project I undertake. Whether you're an
+                                    Collaboration is at the heart of every project I undertake. Whether you&apos;re an
                                     individual, a startup, or a growing business, I bring your ideas to life with
                                     innovation and precision.
                                 </p>

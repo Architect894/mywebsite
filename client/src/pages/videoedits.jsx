@@ -19,38 +19,38 @@ export default function VideoEditing() {
 
     const mobileVideos = [
         {
-            src: "/AltitudeAdMobile.mp4",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694453/AltitudeAdMobile_zala3d.mp4",
             title: "Altitude Imaging Ad",
         },
         {
-            src: "/Wrangler.mp4",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694453/Wrangler_rqblr3.mp4",
             title: "Wrangler Before and After",
         },
         {
-            src: "/Rav4AI.mp4",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694456/Rav4AI_kipy17.mp4",
             title: "Toyota RAV4 w/ Voiceover",
         },
         {
-            src: "/Audi.mp4",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694458/Audi_sreb08.mp4",
             title: "Audi Before and After",
         },
         {
-            src: "/Explorer.mp4",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694453/Explorer_pewzfp.mp4",
             title: "Explorer Before and After",
         },
         {
-            src: "/AT4.mp4",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694455/AT4_sjk4oj.mp4",
             title: "Sierra AT4 Before and After",
         }
     ];
 
     const landscapeVideos = [
         {
-            src: "/AltitudeAd1.mp4",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694458/AltitudeAd1_fbppcz.mp4",
             title: "Altitude Imaging Promo",
         },
         {
-            src: "/AltitudeAd2.mp4",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694456/AltitudeAd2_xsxcp8.mp4",
             title: "Altitude Imaging Promo",
         }
     ];

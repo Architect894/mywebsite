@@ -59,7 +59,7 @@ export default function Projects() {
                 </div>
 
                 <div className="container d-flex flex-wrap justify-content-center gap-">
-                    {['/pestcontrolweb.mp4'].map((src, index) => (
+                    {['https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694460/pestcontrolweb_mt3y4j.mp4'].map((src, index) => (
                         <div key={index} style={{ width: '100%', maxWidth: '1450px' }}>
                             <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
                                 <video
@@ -110,7 +110,7 @@ export default function Projects() {
                 </div>
 
                 <div className="container d-flex flex-wrap justify-content-center gap-4">
-                    {['/storybook.mp4'].map((src, index) => (
+                    {['https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694457/storybook_ckslxv.mp4'].map((src, index) => (
                         <div key={index} style={{ width: '100%', maxWidth: '1450px' }}>
                             <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden' }}>
                                 <video

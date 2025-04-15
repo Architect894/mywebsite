@@ -49,7 +49,7 @@ export default function Home() {
                     playsInline
                     className={styles.videoBackground}
                 >
-                    <source src="/bgvideo.mp4" type="video/mp4" />
+                    <source src="https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694449/bgvideo_u8hhwt.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 

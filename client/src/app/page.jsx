@@ -58,11 +58,14 @@ export default function Home() {
                     <h1 className="display-3 mb-4">Hey, I&apos;m Jacob</h1>
                     <p className="lead mb-5">
                         Feel free to have a look around, welcome to my portfolio!<br />
-                        I am a software engineer with a passion for music and technology.
+                        I am a software engineer with a passion for video editing and technology.
                     </p>
                     <div className="d-flex justify-content-center gap-3">
-                        <Link href="https://github.com/Architect894" className="btn btn-outline-light btn-lg">
-                            View Github
+                        <Link href="/projects" className="btn btn-outline-light btn-lg">
+                            View Projects
+                        </Link>
+                        <Link href="/videoedits" className="btn btn-outline-light btn-lg">
+                            View Video Edits
                         </Link>
                     </div>
                 </div>

@@ -36,11 +36,24 @@ export default function DropMenu() {
             >
                 {/* Desktop Navigation Links */}
                 <div className="hidden lg:flex w-full justify-center items-center space-x-6">
-                <Link href="#contactus" className="button-container py-1 px-3 text-white hover:text-yellow-400">
+                <Link href="/" className="button-container py-1 px-3 text-white hover:text-yellow-400">
                         Home
                     </Link>
+                    <Link href="/projects" className="button-container py-1 px-3">
+                        Projects
+                    </Link>
+                    <Link href="/videoedits" className="button-container py-1 px-3">
+                        Video Editing
+                    </Link>
+                    <a
+                            href="https://linkedin.com/in/architect894" // Replace with your LinkedIn profile
+                            className="button-container py-1 px-3 text-white hover:text-yellow-400"
+                            style={{ borderRadius: "5px" }}
+                        >
+                            Connect on LinkedIn &nbsp; <i className="bi bi-linkedin"></i>
+                    </a>
                     <Link
-                        href="#contact"
+                        href="/"
                         className="button-container py-1 px-3 text-white hover:text-yellow-400"
                     >
                         Get In Touch <span aria-hidden="true" className="ml-2">→</span>
@@ -77,11 +90,24 @@ export default function DropMenu() {
             {/* Mobile Navigation Menu */}
             {isMenuOpen && (
                 <div className="lg:hidden bg-gray-800 text-white py-6 px-4 flex flex-col items-center text-center space-y-4 animate-dropdown">
-                    <Link href="#contactus" className="button-container py-1 px-3 text-white hover:text-yellow-400">
+                    <Link href="/" className="button-container py-1 px-3 text-white hover:text-yellow-400">
                         Home
                     </Link>
+                    <Link href="/projects" className="button-container py-1 px-3 text-white hover:text-yellow-400">
+                        Projects
+                    </Link>
+                    <Link href="/videoedits" className="button-container py-1 px-3 text-white hover:text-yellow-400">
+                        Video Editing
+                    </Link>
+                    <a
+                            href="https://linkedin.com/in/architect894" // Replace with your LinkedIn profile
+                            className="button-container py-1 px-3 text-white hover:text-yellow-400"
+                            style={{ borderRadius: "5px" }}
+                        >
+                            Connect on LinkedIn &nbsp; <i className="bi bi-linkedin"></i>
+                    </a>
                     <Link
-                        href="#contact"
+                        href="/"
                         className="button-container py-1 px-3 text-white hover:text-yellow-400"
                     >
                         Get In Touch →

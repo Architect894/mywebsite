@@ -9,7 +9,7 @@ export default function Footer() {
         <footer
             className="text-white py-5"
             style={{
-                backgroundColor: "rgb(19, 19, 19)", // Bright blue background color
+                backgroundColor: "rgb(36, 51, 63)", // Bright blue background color
                 fontFamily: "Quicksand",
             }}
         >

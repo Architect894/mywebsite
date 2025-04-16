@@ -53,7 +53,7 @@
     height: 100%;
     object-fit: cover;
     z-index: 0;
-    filter: blur(4px); /* Adjust the blur strength as needed */
+    filter: blur(2px); /* Adjust the blur strength as needed */
     transform: scale(1.1); /* Prevents edges from showing after blur */
 }
 

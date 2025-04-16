@@ -18,7 +18,7 @@ export default function Footer() {
                     {/* Personal Branding Section */}
                     <div className="col-md-4 text-center text-md-start mb-4 mb-md-0">
                         <h3 className="text-white">Jacob Elliott</h3>
-                        <p>Providing Software Solutions and Music Services.</p>
+                        <p>Providing Software Solutions and Video Editing Services.</p>
                         <address className="mt-3">
                             <p>
                                 <a href="mailto:sendittojelliott@gmail.com" className="text-white text-decoration-none">

@@ -21,7 +21,7 @@ export default function Footer() {
                         <p>Providing Software Solutions and Music Services.</p>
                         <address className="mt-3">
                             <p>
-                                <a href="mailto:architect894@gmail.com" className="text-white text-decoration-none">
+                                <a href="mailto:sendittojelliott@gmail.com" className="text-white text-decoration-none">
                                     sendittojelliott@gmail.com
                                 </a>
                             </p>

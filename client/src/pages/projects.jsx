@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from '../styles/styles.module.css';
 import '../styles/global.css';
 import PagesLayout from './pageslayout';
+import Head from './logos';
 
 export default function Projects() {
     const sectionRef = useRef(null);
@@ -32,6 +33,12 @@ export default function Projects() {
 
     return (
         <PagesLayout>
+            <Head>
+                <link
+                    rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+                />
+            </Head>
             {/* Pest Control Section */}
             <section
                 id="pest-control"
@@ -104,7 +111,7 @@ export default function Projects() {
                     <h2 className="display-3 mb-3">Storybook UI System Demo</h2>
                     <p className="lead">
                         This video demonstrates my component-driven UI development using Storybook.
-                        It showcases how reusable components are structured, tested, and documented 
+                        It showcases how reusable components are structured, tested, and documented
                         for scalable frontend projects.
                     </p>
                 </div>

@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/global.css";
 import styles from "../styles/styles.module.css";
 import PagesLayout from "./pageslayout";
+import Head from "./logos";
 
 export default function VideoEditing() {
     const videoRefs = useRef([]);
@@ -57,13 +58,19 @@ export default function VideoEditing() {
 
     return (
         <PagesLayout>
+            <Head>
+                <link
+                    rel="stylesheet"
+                    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+                />
+            </Head>
             <section
                 className="text-white py-5 text-center"
                 style={{ fontFamily: "Quicksand" }}
             >
                 <div className="container mb-5">
                     <h2 className="display-4 mb-3">Portrait Video Projects</h2>
-                    <p className="lead">Want to showcase your business in action? I create engaging, high-quality video edits using CapCut, DaVinci Resolve, and Adobe Premiere—perfect for before-and-after 
+                    <p className="lead">Want to showcase your business in action? I create engaging, high-quality video edits using CapCut, DaVinci Resolve, and Adobe Premiere—perfect for before-and-after
                         transformations, promos, and small business ads that connect with your audience.</p>
                 </div>
 
@@ -117,7 +124,7 @@ export default function VideoEditing() {
             <section className="text-white py-5" style={{ fontFamily: "Quicksand" }}>
                 <div className="container mb-5 text-center">
                     <h3 className="display-5 mb-3">Landscape Video Projects</h3>
-                    <p className="lead">Crafted for a cinematic touch, these landscape videos are designed to showcase your business in a bold, professional 
+                    <p className="lead">Crafted for a cinematic touch, these landscape videos are designed to showcase your business in a bold, professional
                         light—perfect for connecting with audiences who want to see the full story behind your brand.</p>
                 </div>
 

@@ -85,7 +85,7 @@ export default function Contact() {
                                 rel="noopener noreferrer"
                                 className="text-white"
                                 style={{
-                                    fontSize: "4.5rem",
+                                    fontSize: "2.0rem",
                                     transition: "transform 0.2s ease-in-out",
                                     margin: "0 20px",
                                 }}

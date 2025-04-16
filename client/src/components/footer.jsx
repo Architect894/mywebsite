@@ -22,7 +22,7 @@ export default function Footer() {
                         <address className="mt-3">
                             <p>
                                 <a href="mailto:architect894@gmail.com" className="text-white text-decoration-none">
-                                    architect894@gmail.com
+                                    sendittojelliott@gmail.com
                                 </a>
                             </p>
                             <p>

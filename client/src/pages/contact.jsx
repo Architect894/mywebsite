@@ -63,7 +63,7 @@ export default function Contact() {
                         <a
                             href="mailto:sendittojelliott@gmail.com"
                             className="text-info fw-bold"
-                            style={{ fontSize: "2.00rem" }}
+                            style={{ fontSize: "1.50rem" }}
                         >
                             sendittojelliott@gmail.com
                         </a>

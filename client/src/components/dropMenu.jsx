@@ -36,9 +36,14 @@ export default function DropMenu() {
             >
                 {/* Desktop Navigation Links */}
                 <div className="hidden lg:flex w-full justify-center items-center space-x-6">
-                <Link href="/" className="button-container py-1 px-3 text-white hover:text-yellow-400">
-                        Home
+                    <Link href="/" className="button-container py-1 px-3 text-white hover:text-yellow-400">
+                        <img
+                            src="/homeje.png"
+                            alt="Home"
+                            style={{ height: "100px", width: "auto" }}
+                        />
                     </Link>
+
                     <Link href="/projects" className="button-container py-1 px-3">
                         Projects
                     </Link>
@@ -46,14 +51,16 @@ export default function DropMenu() {
                         Video Editing
                     </Link>
                     <a
-                            href="https://linkedin.com/in/architect894" // Replace with your LinkedIn profile
-                            className="button-container py-1 px-3 text-white hover:text-yellow-400"
-                            style={{ borderRadius: "5px" }}
-                        >
-                            Connect on LinkedIn &nbsp; <i className="bi bi-linkedin"></i>
+                        href="https://linkedin.com/in/architect894"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="button-container py-1 px-3"
+                        style={{ borderRadius: "5px" }}
+                    >
+                        &nbsp; <i className="bi bi-linkedin"></i>
                     </a>
                     <Link
-                        href="/"
+                        href="/contact"
                         className="button-container py-1 px-3 text-white hover:text-yellow-400"
                     >
                         Get In Touch <span aria-hidden="true" className="ml-2">→</span>
@@ -91,7 +98,11 @@ export default function DropMenu() {
             {isMenuOpen && (
                 <div className="lg:hidden bg-gray-800 text-white py-6 px-4 flex flex-col items-center text-center space-y-4 animate-dropdown">
                     <Link href="/" className="button-container py-1 px-3 text-white hover:text-yellow-400">
-                        Home
+                        <img
+                            src="/homeje.png"
+                            alt="Home"
+                            style={{ height: "100px", width: "auto" }}
+                        />
                     </Link>
                     <Link href="/projects" className="button-container py-1 px-3 text-white hover:text-yellow-400">
                         Projects
@@ -100,11 +111,11 @@ export default function DropMenu() {
                         Video Editing
                     </Link>
                     <a
-                            href="https://linkedin.com/in/architect894" // Replace with your LinkedIn profile
-                            className="button-container py-1 px-3 text-white hover:text-yellow-400"
-                            style={{ borderRadius: "5px" }}
-                        >
-                            Connect on LinkedIn &nbsp; <i className="bi bi-linkedin"></i>
+                        href="https://linkedin.com/in/architect894" // Replace with your LinkedIn profile
+                        className="button-container py-1 px-3 text-white hover:text-yellow-400"
+                        style={{ borderRadius: "5px" }}
+                    >
+                        Connect on LinkedIn &nbsp; <i className="bi bi-linkedin"></i>
                     </a>
                     <Link
                         href="/"

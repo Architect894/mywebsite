@@ -42,12 +42,15 @@ export default function Footer() {
                             or custom music composition, I&apos;m here to help turn your ideas into reality.
                         </p>
                         <a
-                            href="https://linkedin.com/in/architect894" // Replace with your LinkedIn profile
+                            href="https://linkedin.com/in/architect894"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="btn btn-warning text-dark text-decoration-none mt-3"
                             style={{ borderRadius: "5px" }}
                         >
                             Connect on LinkedIn &nbsp; <i className="bi bi-linkedin"></i>
                         </a>
+
                     </div>
                 </div>
 

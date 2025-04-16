@@ -27,9 +27,9 @@ export default function ContactUs() {
                                 playsInline
                             />
                             <div className="p-8">
-                                <h3 className="text-sm font-semibold text-gray-400">Software Solutions</h3>
+                                <h3 className="text-lg font-semibold text-gray-400">Software Solutions</h3>
                                 <p className="mt-2 text-lg font-medium tracking-tight text-gray-200">
-                                    Building the Future of Tech
+                                    Building Your Future App
                                 </p>
                                 <p className="mt-2 text-sm text-gray-400">
                                     Whether it&apos;s web applications, automation tools, or bespoke software, I design and
@@ -52,7 +52,7 @@ export default function ContactUs() {
                                 playsInline
                             />
                             <div className="p-8">
-                                <h3 className="text-sm font-semibold text-gray-400">Collaboration</h3>
+                                <h3 className="text-lg font-semibold text-gray-400">Video Editing</h3>
                                 <p className="mt-2 text-lg font-medium tracking-tight text-white">
                                     Your Vision, My Expertise
                                 </p>

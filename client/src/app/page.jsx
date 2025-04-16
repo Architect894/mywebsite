@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/global.css";
 import styles from "../styles/styles.module.css";
 import Link from "next/link";
+import Connections from "@/components/connections";
 
 export default function Home() {
     const [scrollY, setScrollY] = useState(0); // Track the scroll position
@@ -60,7 +61,7 @@ export default function Home() {
                         Feel free to have a look around, welcome to my portfolio!<br />
                         I am a software engineer with a passion for video editing and technology.
                     </p>
-                    <div className="d-flex justify-content-center gap-3">
+                    <div className="d-flex justify-content-center gap-3 mb-4">
                         <Link href="/projects" className="btn btn-outline-light btn-lg">
                             View Projects
                         </Link>
@@ -68,8 +69,37 @@ export default function Home() {
                             View Video Edits
                         </Link>
                     </div>
+
+                    {/* Social Media Icons placed here */}
+                    <p className="text-light mb-3" style={{ fontSize: "1.5rem" }}>Connect with me:</p>
+                    <div className="d-flex justify-content-center gap-4">
+                        {[
+                            { href: "https://github.com/Architect894", icon: "github" },
+                            { href: "https://linkedin.com/in/architect894", icon: "linkedin" },
+                            { href: "https://facebook.com/jacob.a.elliott/", icon: "facebook" },
+                            { href: "https://instagram.com/jelliott_tv/", icon: "instagram" },
+                        ].map((social, i) => (
+                            <a
+                                key={i}
+                                href={social.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-white"
+                                style={{
+                                    fontSize: "2.5rem",
+                                    transition: "transform 0.2s ease-in-out",
+                                }}
+                                onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.2)")}
+                                onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+                            >
+                                <i className={`bi bi-${social.icon}`}></i>
+                            </a>
+                        ))}
+                    </div>
                 </div>
+
             </header>
+
 
         </section>
     );

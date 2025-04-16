@@ -62,8 +62,9 @@ export default function VideoEditing() {
                 style={{ fontFamily: "Quicksand" }}
             >
                 <div className="container mb-5">
-                    <h2 className="display-4 mb-3">Video Editing Projects</h2>
-                    <p className="lead">Showcase of mobile-optimized video edits.</p>
+                    <h2 className="display-4 mb-3">Portrait Video Projects</h2>
+                    <p className="lead">Want to showcase your business in action? I create engaging, high-quality video edits using CapCut, DaVinci Resolve, and Adobe Premiere—perfect for before-and-after 
+                        transformations, promos, and small business ads that connect with your audience.</p>
                 </div>
 
                 <div
@@ -115,8 +116,9 @@ export default function VideoEditing() {
             {/* Landscape Section */}
             <section className="text-white py-5" style={{ fontFamily: "Quicksand" }}>
                 <div className="container mb-5 text-center">
-                    <h3 className="display-5 mb-3">Landscape Video Edits</h3>
-                    <p className="lead">Showcase of Landscape Video Edits.</p>
+                    <h3 className="display-5 mb-3">Landscape Video Projects</h3>
+                    <p className="lead">Crafted for a cinematic touch, these landscape videos are designed to showcase your business in a bold, professional 
+                        light—perfect for connecting with audiences who want to see the full story behind your brand.</p>
                 </div>
 
                 <div className="container">

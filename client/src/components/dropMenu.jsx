@@ -118,7 +118,7 @@ export default function DropMenu() {
                         Connect on LinkedIn &nbsp; <i className="bi bi-linkedin"></i>
                     </a>
                     <Link
-                        href="/"
+                        href="/contact"
                         className="button-container py-1 px-3 text-white hover:text-yellow-400"
                     >
                         Get In Touch →

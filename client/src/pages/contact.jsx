@@ -43,7 +43,7 @@ export default function Contact() {
                     fontFamily: "Quicksand",
                     zIndex: 0,
                     background: "rgba(0, 0, 0, 0.8)", // Keep a dark overlay for readability
-                    height: "60vh",
+                    height: "100vh",
                     overflow: "hidden",
                 }}
             >

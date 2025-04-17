@@ -24,12 +24,12 @@ export default function VideoEditing() {
             title: "Altitude Imaging Ad",
         },
         {
-            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694453/Wrangler_rqblr3.mp4",
-            title: "Wrangler Before and After",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744861064/GreenGatorAd1_zlebgt.mp4",
+            title: "Green Gator Pressure Washing Ad",
         },
         {
-            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694456/Rav4AI_kipy17.mp4",
-            title: "Toyota RAV4 w/ Voiceover",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694453/Wrangler_rqblr3.mp4",
+            title: "Wrangler Before and After",
         },
         {
             src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694458/Audi_sreb08.mp4",

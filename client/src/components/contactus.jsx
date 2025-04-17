@@ -7,7 +7,6 @@ export default function ContactUs() {
     return (
         <div className="bg-gray-900 py-24 sm:py-32">
             <div className="mx-auto max-w-4xl px-6 lg:max-w-6xl lg:px-8 text-center">
-                <h2 className="text-base/7 font-semibold text-indigo-400">Let&apos;s Work Together</h2>
                 <p className="mt-2 text-4xl font-semibold tracking-tight text-white sm:text-5xl">
                     Turning your vision into reality.
                 </p>

@@ -58,7 +58,7 @@ export default function Contact() {
                     <p className="lead" style={{ fontSize: "1.65rem" }}>
                         I&apos;d love to hear from you! Whether it&apos;s a project, a question, or just a hello.
                     </p>
-                    <p className="text-light mb-2" style={{ fontSize: "1.50rem" }}>Email me directly at:</p>
+                    <p className="text-light mb-4" style={{ fontSize: "1.50rem" }}>Email me directly at:</p>
                     <p>
                         <a
                             href="mailto:sendittojelliott@gmail.com"

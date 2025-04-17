@@ -50,20 +50,11 @@ export default function DropMenu() {
                     <Link href="/videoedits" className="button-container py-1 px-3">
                         Video Editing
                     </Link>
-                    <a
-                        href="https://linkedin.com/in/architect894"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="button-container py-1 px-3"
-                        style={{ borderRadius: "5px" }}
-                    >
-                        &nbsp; <i className="bi bi-linkedin"></i>
-                    </a>
                     <Link
                         href="/contact"
-                        className="button-container py-1 px-3 text-white hover:text-yellow-400"
+                        className="button-container py-1 px-3"
                     >
-                        Get In Touch <span aria-hidden="true" className="ml-2">→</span>
+                        Get In Touch
                     </Link>
                 </div>
 
@@ -110,13 +101,6 @@ export default function DropMenu() {
                     <Link href="/videoedits" className="button-container py-1 px-3 text-white hover:text-yellow-400">
                         Video Editing
                     </Link>
-                    <a
-                        href="https://linkedin.com/in/architect894" // Replace with your LinkedIn profile
-                        className="button-container py-1 px-3 text-white hover:text-yellow-400"
-                        style={{ borderRadius: "5px" }}
-                    >
-                        Connect on LinkedIn &nbsp; <i className="bi bi-linkedin"></i>
-                    </a>
                     <Link
                         href="/contact"
                         className="button-container py-1 px-3 text-white hover:text-yellow-400"

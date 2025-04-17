@@ -28,8 +28,8 @@ export default function VideoEditing() {
             title: "Green Gator Pressure Washing Ad",
         },
         {
-            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694453/Wrangler_rqblr3.mp4",
-            title: "Wrangler Before and After",
+            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694456/Rav4AI_kipy17.mp4",
+            title: "RestorFX Services Ad",
         },
         {
             src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694458/Audi_sreb08.mp4",
@@ -103,13 +103,11 @@ export default function VideoEditing() {
                                 onPlay={() => handlePlay(index)}
                                 controls
                                 muted={false}
+                                className={styles.videoHoverEffect}
                                 style={{
                                     width: "100%",
                                     aspectRatio: "9 / 16",
                                     objectFit: "cover",
-                                    borderRadius: "10px",
-                                    border: "2px solid #444",
-                                    backgroundColor: "#000",
                                 }}
                             >
                                 <source src={video.src} type="video/mp4" />
@@ -130,29 +128,32 @@ export default function VideoEditing() {
 
                 <div className="container">
                     <div className="row g-4 justify-content-center">
-                        {landscapeVideos.map((video, index) => (
-                            <div className="col-12 col-md-6 col-lg-5" key={index}>
-                                <h5 className="fw-semibold text-white">{video.title}</h5>
-                                <p className="text-muted mb-2" style={{ fontSize: "0.9rem" }}>{video.description}</p>
-                                <video
-                                    controls
-                                    muted={false}
-                                    style={{
-                                        width: "100%",
-                                        height: "auto",
-                                        borderRadius: "10px",
-                                        border: "2px solid #444",
-                                        backgroundColor: "#000",
-                                    }}
-                                >
-                                    <source src={video.src} type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
-                            </div>
-                        ))}
+                        {landscapeVideos.map((video, index) => {
+                            const globalIndex = mobileVideos.length + index;
+                            return (
+                                <div className="col-12 col-md-6 col-lg-5" key={index}>
+                                    <h5 className="fw-semibold text-white">{video.title}</h5>
+                                    <p className="text-muted mb-2" style={{ fontSize: "0.9rem" }}>{video.description}</p>
+                                    <video
+                                        ref={(el) => (videoRefs.current[globalIndex] = el)}
+                                        onPlay={() => handlePlay(globalIndex)}
+                                        controls
+                                        muted={false}
+                                        className={styles.videoHoverEffect}
+                                        style={{
+                                            width: "100%",
+                                            objectFit: "cover",
+                                        }}
+                                    >
+                                        <source src={video.src} type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            );
+                        })}
                     </div>
                 </div>
-            </section>
-        </PagesLayout>
+            </section >
+        </PagesLayout >
     );
 }

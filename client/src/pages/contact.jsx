@@ -37,23 +37,30 @@ export default function Contact() {
             </Head>
             <section
                 id="contact"
-                className="text-white py-5 text-center"
+                className="text-white py-5 text-center position-relative"
                 style={{
-                    marginTop: "2%",
+                    marginTop: "0%",
                     fontFamily: "Quicksand",
+                    zIndex: 0,
+                    background: "rgba(0, 0, 0, 0.8)", // Keep a dark overlay for readability
+                    height: "60vh",
+                    overflow: "hidden",
                 }}
             >
-                <div
-                    className="container d-flex flex-column justify-content-center align-items-center mb-5"
-                    style={{
-                        backgroundColor: "rgba(0, 0, 0, 0.1)",
-                        backdropFilter: "blur(10px)",
-                        borderRadius: "10px",
-                        boxShadow: "0 4px 15px rgba(0, 0, 0, 0.4)",
-                        padding: "20px",
-                        maxWidth: "90%",
-                    }}
+                {/* Background Video */}
+                <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className={styles.videoBackground}
                 >
+                    <source src="https://res.cloudinary.com/dzcsyysgp/video/upload/v1744865757/Untitled_design_2_obbjzk.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+
+                {/* Frosted Glass Content Box */}
+                <div className={`container d-flex flex-column justify-content-center align-items-center mb-5 mt-5 ${styles.frostedGlass}`}>
                     <h2 className="display-3 mb-3">Get in Touch</h2>
                     <p className="lead" style={{ fontSize: "1.65rem" }}>
                         I&apos;d love to hear from you! Whether it&apos;s a project, a question, or just a hello.

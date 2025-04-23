@@ -20,28 +20,28 @@ export default function VideoEditing() {
 
     const mobileVideos = [
         {
-            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694453/AltitudeAdMobile_zala3d.mp4",
+            src: "https://jelliottvideos.b-cdn.net/altitudeadmob.mp4",
             title: "Altitude Imaging Ad",
         },
         {
-            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744861064/GreenGatorAd1_zlebgt.mp4",
+            src: "https://jelliottvideos.b-cdn.net/GreenGatorAd1.mp4",
             title: "Green Gator Pressure Washing Ad",
         },
         {
-            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694456/Rav4AI_kipy17.mp4",
+            src: "https://jelliottvideos.b-cdn.net/ravaiad.mp4",
             title: "RestorFX Services Ad",
         },
         {
-            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694458/Audi_sreb08.mp4",
+            src: "https://jelliottvideos.b-cdn.net/audibanda.mp4",
             title: "Audi Before and After",
         },
         {
-            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694453/Explorer_pewzfp.mp4",
+            src: "https://jelliottvideos.b-cdn.net/explorerbanda.mp4",
             title: "Explorer Before and After",
         },
         {
-            src: "https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694455/AT4_sjk4oj.mp4",
-            title: "Sierra AT4 Before and After",
+            src: "https://jelliottvideos.b-cdn.net/wranglerbanda.mp4",
+            title: "Jeep Wrangler Before and After",
         }
     ];
 

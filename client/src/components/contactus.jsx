@@ -19,7 +19,7 @@ export default function ContactUs() {
                         <div className="overflow-hidden rounded-lg bg-gray-900 ring-1 ring-white/15">
                             <video
                                 className="w-full h-80 object-cover object-center"
-                                src="https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694445/JELOGO_n4xxyz.mp4"
+                                src="https://jelliottvideos.b-cdn.net/jelogos.mp4"
                                 autoPlay
                                 loop
                                 muted
@@ -44,7 +44,7 @@ export default function ContactUs() {
                         <div className="overflow-hidden rounded-lg bg-gray-800 ring-1 ring-white/15">
                             <video
                                 className="w-full h-80 object-cover object-center"
-                                src="https://res.cloudinary.com/dzcsyysgp/video/upload/v1744694445/JE_you_jqckex.mp4"
+                                src="https://jelliottvideos.b-cdn.net/jelliottandyou.mp4"
                                 autoPlay
                                 loop
                                 muted

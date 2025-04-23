@@ -50,7 +50,7 @@ export default function Home() {
                     playsInline
                     className={styles.videoBackground}
                 >
-                    <source src="https://res.cloudinary.com/dzcsyysgp/video/upload/v1744846590/goldnblack_lettuh.mp4" type="video/mp4" />
+                    <source src="https://jelliottvideos.b-cdn.net/goldnblackz.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 

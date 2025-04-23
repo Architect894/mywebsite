@@ -55,7 +55,7 @@ export default function Contact() {
                     playsInline
                     className={styles.videoBackground}
                 >
-                    <source src="https://res.cloudinary.com/dzcsyysgp/video/upload/v1744865757/Untitled_design_2_obbjzk.mp4" type="video/mp4" />
+                    <source src="https://jelliottvideos.b-cdn.net/blackngoldsquare.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 
